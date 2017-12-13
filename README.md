@@ -43,3 +43,11 @@ python3 knn.py  <train_features> <train_label> <eval_feature> <start_features> <
 python3 knn.py <model> <eval_feature> <eval_id_music> <start_features> <end_features> <save_dest>
 ```
 
+
+
+Dans Data
+- train\_feature :  contient toutes les features extraites 
+- train\_label :  contient tous les labels des fichiers train
+
+- eval\_features : contient toutes les features extraites de l'ensemble de Tests (utilisé pour générer les fichiers de soumission)
+- test : contient les noms des fichiers de tests
